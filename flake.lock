@@ -1,0 +1,62 @@
+{
+  "nodes": {
+    "golang-shared-configs": {
+      "inputs": {
+        "nixpkgs": "nixpkgs"
+      },
+      "locked": {
+        "lastModified": 1793828891,
+        "narHash": "sha256-xSOaz2gHwnvDTQA+9WtWFZ8DnLPzkG6Lwzsnsx7XjLc=",
+        "owner": "curtbushko",
+        "repo": "golang-shared-configs",
+        "rev": "c9aadafa7b21d7564d046c108ca16ff7fe5c1be2",
+        "type": "github"
+      },
+      "original": {
+        "owner": "curtbushko",
+        "repo": "golang-shared-configs",
+        "type": "github"
+      }
+    },
+    "nixpkgs": {
+      "locked": {
+        "lastModified": 1770169770,
+        "narHash": "sha256-awR8qIwJxJJiOmcEGgP2KUqYmHG4v/z8XpL9z8FnT1A=",
+        "owner": "NixOS",
+        "repo": "nixpkgs",
+        "rev": "aa290c9891fa4ebe88f8889e59633d20cc06a5f2",
+        "type": "github"
+      },
+      "original": {
+        "owner": "NixOS",
+        "ref": "nixpkgs-unstable",
+        "repo": "nixpkgs",
+        "type": "github"
+      }
+    },
+    "nixpkgs_2": {
+      "locked": {
+        "lastModified": 1793671242,
+        "narHash": "sha256-FXXhGUZDRvPAdKFx/eF4E/WG3BnzvkCW2V/Qzs4KBoA=",
+        "owner": "NixOS",
+        "repo": "nixpkgs",
+        "rev": "4ad2eda5f89410d94c57449a70d08935d9bbb4f6",
+        "type": "github"
+      },
+      "original": {
+        "owner": "NixOS",
+        "ref": "nixpkgs-26.05-darwin",
+        "repo": "nixpkgs",
+        "type": "github"
+      }
+    },
+    "root": {
+      "inputs": {
+        "golang-shared-configs": "golang-shared-configs",
+        "nixpkgs": "nixpkgs_2"
+      }
+    }
+  },
+  "root": "root",
+  "version": 7
+}
